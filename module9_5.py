@@ -27,7 +27,7 @@ class Iterator:
 try:
     iter1 = Iterator(100, 200, 0)
     for i in iter1:
-        print(i, end='')
+        print(i, end=' ')
 except StepValueError:
     print('Шаг указан неверно')
 
@@ -37,14 +37,14 @@ except StepValueError:
     iter5 = Iterator(10, 1)
 
     for i in iter2:
-        print(i, end='')
+        print(i, end=' ')
     print()
     for i in iter3:
-        print(i, end='')
+        print(i, end=' ')
     print()
     for i in iter4:
-        print(i, end='')
+        print(i, end=' ')
     print()
     for i in iter5:
-        print(i, end='')
+        print(i, end=' ')
     print()
